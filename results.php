@@ -9,7 +9,7 @@ $data = [
 				"term" => "Third Term",
 				"grade" => "A",
 				"total_marks" => "92%",
-				"download" => "https =>//tech101.com.np/marksheet.pdf",
+				"download" => "https://tech101.com.np/marksheet.pdf",
 				"marks" => [
 					"english" => "91",
 					"maths" => "98",
@@ -20,7 +20,7 @@ $data = [
 				"term" => "Second Term",
 				"grade" => "A+",
 				"total_marks" => "95%",
-				"download" => "https =>//tech101.com.np/marksheet.pdf",
+				"download" => "https://tech101.com.np/marksheet.pdf",
 				"marks" => [
 					"english" => "95",
 					"maths" => "98",
@@ -31,7 +31,7 @@ $data = [
 				"term" => "First Term",
 				"grade" => "A",
 				"total_marks" => "85%",
-				"download" => "https =>//tech101.com.np/marksheet.pdf",
+				"download" => "https://tech101.com.np/marksheet.pdf",
 				"marks" => [
 					"english" => "86",
 					"maths" => "92",
@@ -47,7 +47,7 @@ $data = [
 				"term" => "Third Term",
 				"grade" => "A",
 				"total_marks" => "92%",
-				"download" => "https =>//tech101.com.np/marksheet.pdf",
+				"download" => "https://tech101.com.np/marksheet.pdf",
 				"marks" => [
 					"english" => "91",
 					"maths" => "98",
@@ -58,7 +58,7 @@ $data = [
 				"term" => "Second Term",
 				"grade" => "A+",
 				"total_marks" => "95%",
-				"download" => "https =>//tech101.com.np/marksheet.pdf",
+				"download" => "https://tech101.com.np/marksheet.pdf",
 				"marks" => [
 					"english" => "95",
 					"maths" => "98",
@@ -69,7 +69,7 @@ $data = [
 				"term" => "First Term",
 				"grade" => "A",
 				"total_marks" => "85%",
-				"download" => "https =>//tech101.com.np/marksheet.pdf",
+				"download" => "https://tech101.com.np/marksheet.pdf",
 				"marks" => [
 					"english" => "86",
 					"maths" => "92",
