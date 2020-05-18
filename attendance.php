@@ -108,11 +108,12 @@ if ( $requestedMonth < 1 || $requestedMonth > 12 ) $requestedMonth = 1;
 
 $data = $months[$requestedMonth - 1];
 if ( $requestedMonth != $thisMonth ) $today = $data['totalDays'];
-if ( $requestedMonth > $thisMonth ) $today = 0;
+if ( $requestedMonth > $thisMonth ) $today = 1;
+$inactive = ( $requestedMonth > $thisMonth ) ? [] : [rand(1, ($today-1)), rand(1, ($today-1))];
 
 $data['label'] = [
 	"active" => [$today],
-	"inactive" => [rand(1, ($today-1)), rand(1, ($today-1))],
+	"inactive" => $inactive,
 	"holiday" => $data['holiday']
 ];
 $data['legend'] = [
