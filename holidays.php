@@ -231,7 +231,7 @@ $months = [
 				"label" => "Tarai Falgu Purnima"
 			],
 			[
-				"day" => 21,
+				"day" => 29,
 				"label" => "Ghode Jatraa"
 			]
 		]
