@@ -106,7 +106,7 @@ $thisMonth = date('m') - 3;
 $requestedMonth = $_GET['month'] || $thisMonth;
 $data = $months[$requestedMonth - 1];
 $data['label'] = [
-	"active" => $today,
+	"active" => [$today],
 	"inactive" => [rand(1, ($today-1)), rand(1, ($today-1))],
 	"holiday" => $data['holiday']
 ];
