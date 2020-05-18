@@ -105,9 +105,10 @@ $thisMonth = date('m') - 3;
 
 $requestedMonth = ( isset($_GET['month']) ) ? $_GET['month'] : $thisMonth;
 if ( $requestedMonth < 1 || $requestedMonth > 12 ) $requestedMonth = 1;
-if ( $requestedMonth != $thisMonth ) $today = 0;
 
 $data = $months[$requestedMonth - 1];
+if ( $requestedMonth != $thisMonth ) $today = $data['totalDays'];
+
 $data['label'] = [
 	"active" => [$today],
 	"inactive" => [rand(1, ($today-1)), rand(1, ($today-1))],
