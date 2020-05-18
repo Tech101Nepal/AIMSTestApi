@@ -108,6 +108,7 @@ if ( $requestedMonth < 1 || $requestedMonth > 12 ) $requestedMonth = 1;
 
 $data = $months[$requestedMonth - 1];
 if ( $requestedMonth != $thisMonth ) $today = $data['totalDays'];
+if ( $requestedMonth > $thisMonth ) $today = 0;
 
 $data['label'] = [
 	"active" => [$today],
