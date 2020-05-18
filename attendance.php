@@ -103,7 +103,8 @@ $months = [
 $today = date('d') - 13;
 $thisMonth = date('m') - 3;
 
-$requestedMonth = $_GET['month'] || $thisMonth;
+$requestedMonth = ( isset($_GET['month']) ) ? $_GET['month'] : $thisMonth;
+
 $data = $months[$requestedMonth - 1];
 $data['label'] = [
 	"active" => [$today],
